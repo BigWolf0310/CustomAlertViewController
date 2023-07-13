@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		332BC01D762948E6E0FED614 /* Pods_CustomAlertViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E84944160164CAD4E31EADB8 /* Pods_CustomAlertViewController.framework */; };
+		56FB028A2A5E9B3800B5631A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02892A5E9B3800B5631A /* AppDelegate.m */; };
+		56FB028D2A5E9B3800B5631A /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB028C2A5E9B3800B5631A /* SceneDelegate.m */; };
+		56FB02902A5E9B3800B5631A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB028F2A5E9B3800B5631A /* ViewController.m */; };
+		56FB02932A5E9B3800B5631A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FB02912A5E9B3800B5631A /* Main.storyboard */; };
+		56FB02952A5E9B3900B5631A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56FB02942A5E9B3900B5631A /* Assets.xcassets */; };
+		56FB02982A5E9B3900B5631A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 56FB02962A5E9B3900B5631A /* LaunchScreen.storyboard */; };
+		56FB029B2A5E9B3900B5631A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB029A2A5E9B3900B5631A /* main.m */; };
+		56FB02A42A5E9DFE00B5631A /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02A32A5E9DFE00B5631A /* AlertView.m */; };
+		56FB02AC2A5E9E0200B5631A /* AlertTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02A82A5E9E0200B5631A /* AlertTableCell.m */; };
+		56FB02AD2A5E9E0200B5631A /* AlertActionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02A92A5E9E0200B5631A /* AlertActionView.m */; };
+		56FB02AE2A5E9E0200B5631A /* AlertImgTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02AB2A5E9E0200B5631A /* AlertImgTableCell.m */; };
+		56FB02B22A5EA29100B5631A /* LoginStyleModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02B12A5EA29100B5631A /* LoginStyleModel.m */; };
+		56FB02B52A5EA2D700B5631A /* DeviceInfoTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02B42A5EA2D700B5631A /* DeviceInfoTool.m */; };
+		56FB02B82A5EA3A100B5631A /* UIView+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02B62A5EA3A100B5631A /* UIView+Additions.m */; };
+		56FB02BB2A5EA46600B5631A /* UIButton+LMTimeButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 56FB02B92A5EA46600B5631A /* UIButton+LMTimeButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		56FB02852A5E9B3800B5631A /* CustomAlertViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomAlertViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		56FB02882A5E9B3800B5631A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		56FB02892A5E9B3800B5631A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		56FB028B2A5E9B3800B5631A /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		56FB028C2A5E9B3800B5631A /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		56FB028E2A5E9B3800B5631A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		56FB028F2A5E9B3800B5631A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		56FB02922A5E9B3800B5631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		56FB02942A5E9B3900B5631A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		56FB02972A5E9B3900B5631A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		56FB02992A5E9B3900B5631A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56FB029A2A5E9B3900B5631A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		56FB02A22A5E9DFE00B5631A /* AlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		56FB02A32A5E9DFE00B5631A /* AlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		56FB02A62A5E9E0200B5631A /* AlertActionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertActionView.h; sourceTree = "<group>"; };
+		56FB02A72A5E9E0200B5631A /* AlertImgTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertImgTableCell.h; sourceTree = "<group>"; };
+		56FB02A82A5E9E0200B5631A /* AlertTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertTableCell.m; sourceTree = "<group>"; };
+		56FB02A92A5E9E0200B5631A /* AlertActionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertActionView.m; sourceTree = "<group>"; };
+		56FB02AA2A5E9E0200B5631A /* AlertTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertTableCell.h; sourceTree = "<group>"; };
+		56FB02AB2A5E9E0200B5631A /* AlertImgTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertImgTableCell.m; sourceTree = "<group>"; };
+		56FB02AF2A5E9F3000B5631A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		56FB02B02A5EA29100B5631A /* LoginStyleModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginStyleModel.h; sourceTree = "<group>"; };
+		56FB02B12A5EA29100B5631A /* LoginStyleModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginStyleModel.m; sourceTree = "<group>"; };
+		56FB02B32A5EA2D700B5631A /* DeviceInfoTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceInfoTool.h; sourceTree = "<group>"; };
+		56FB02B42A5EA2D700B5631A /* DeviceInfoTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceInfoTool.m; sourceTree = "<group>"; };
+		56FB02B62A5EA3A100B5631A /* UIView+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Additions.m"; sourceTree = "<group>"; };
+		56FB02B72A5EA3A100B5631A /* UIView+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Additions.h"; sourceTree = "<group>"; };
+		56FB02B92A5EA46600B5631A /* UIButton+LMTimeButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+LMTimeButton.m"; sourceTree = "<group>"; };
+		56FB02BA2A5EA46600B5631A /* UIButton+LMTimeButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+LMTimeButton.h"; sourceTree = "<group>"; };
+		E84944160164CAD4E31EADB8 /* Pods_CustomAlertViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomAlertViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBD548C2272127F5EC58D94B /* Pods-CustomAlertViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertViewController.release.xcconfig"; path = "Target Support Files/Pods-CustomAlertViewController/Pods-CustomAlertViewController.release.xcconfig"; sourceTree = "<group>"; };
+		F68A84DA22203E744CFF03A7 /* Pods-CustomAlertViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomAlertViewController.debug.xcconfig"; path = "Target Support Files/Pods-CustomAlertViewController/Pods-CustomAlertViewController.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		56FB02822A5E9B3800B5631A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				332BC01D762948E6E0FED614 /* Pods_CustomAlertViewController.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		56FB027C2A5E9B3800B5631A = {
+			isa = PBXGroup;
+			children = (
+				56FB02872A5E9B3800B5631A /* CustomAlertViewController */,
+				56FB02862A5E9B3800B5631A /* Products */,
+				FBEE7FAF1AAD79DFD82EE186 /* Pods */,
+				F6348BD5C8ACE65349A31960 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		56FB02862A5E9B3800B5631A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				56FB02852A5E9B3800B5631A /* CustomAlertViewController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		56FB02872A5E9B3800B5631A /* CustomAlertViewController */ = {
+			isa = PBXGroup;
+			children = (
+				56FB02A52A5E9E0200B5631A /* AlertActionView */,
+				56FB02A12A5E9DFE00B5631A /* AlertView */,
+				56FB02882A5E9B3800B5631A /* AppDelegate.h */,
+				56FB02892A5E9B3800B5631A /* AppDelegate.m */,
+				56FB028B2A5E9B3800B5631A /* SceneDelegate.h */,
+				56FB028C2A5E9B3800B5631A /* SceneDelegate.m */,
+				56FB028E2A5E9B3800B5631A /* ViewController.h */,
+				56FB028F2A5E9B3800B5631A /* ViewController.m */,
+				56FB02B32A5EA2D700B5631A /* DeviceInfoTool.h */,
+				56FB02B42A5EA2D700B5631A /* DeviceInfoTool.m */,
+				56FB02B72A5EA3A100B5631A /* UIView+Additions.h */,
+				56FB02B62A5EA3A100B5631A /* UIView+Additions.m */,
+				56FB02BA2A5EA46600B5631A /* UIButton+LMTimeButton.h */,
+				56FB02B92A5EA46600B5631A /* UIButton+LMTimeButton.m */,
+				56FB02AF2A5E9F3000B5631A /* PrefixHeader.pch */,
+				56FB02912A5E9B3800B5631A /* Main.storyboard */,
+				56FB02942A5E9B3900B5631A /* Assets.xcassets */,
+				56FB02962A5E9B3900B5631A /* LaunchScreen.storyboard */,
+				56FB02992A5E9B3900B5631A /* Info.plist */,
+				56FB029A2A5E9B3900B5631A /* main.m */,
+			);
+			path = CustomAlertViewController;
+			sourceTree = "<group>";
+		};
+		56FB02A12A5E9DFE00B5631A /* AlertView */ = {
+			isa = PBXGroup;
+			children = (
+				56FB02A22A5E9DFE00B5631A /* AlertView.h */,
+				56FB02A32A5E9DFE00B5631A /* AlertView.m */,
+			);
+			path = AlertView;
+			sourceTree = "<group>";
+		};
+		56FB02A52A5E9E0200B5631A /* AlertActionView */ = {
+			isa = PBXGroup;
+			children = (
+				56FB02B02A5EA29100B5631A /* LoginStyleModel.h */,
+				56FB02B12A5EA29100B5631A /* LoginStyleModel.m */,
+				56FB02A62A5E9E0200B5631A /* AlertActionView.h */,
+				56FB02A92A5E9E0200B5631A /* AlertActionView.m */,
+				56FB02AA2A5E9E0200B5631A /* AlertTableCell.h */,
+				56FB02A82A5E9E0200B5631A /* AlertTableCell.m */,
+				56FB02A72A5E9E0200B5631A /* AlertImgTableCell.h */,
+				56FB02AB2A5E9E0200B5631A /* AlertImgTableCell.m */,
+			);
+			path = AlertActionView;
+			sourceTree = "<group>";
+		};
+		F6348BD5C8ACE65349A31960 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E84944160164CAD4E31EADB8 /* Pods_CustomAlertViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBEE7FAF1AAD79DFD82EE186 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F68A84DA22203E744CFF03A7 /* Pods-CustomAlertViewController.debug.xcconfig */,
+				EBD548C2272127F5EC58D94B /* Pods-CustomAlertViewController.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		56FB02842A5E9B3800B5631A /* CustomAlertViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 56FB029E2A5E9B3900B5631A /* Build configuration list for PBXNativeTarget "CustomAlertViewController" */;
+			buildPhases = (
+				40C9690779F8801CDC279555 /* [CP] Check Pods Manifest.lock */,
+				56FB02812A5E9B3800B5631A /* Sources */,
+				56FB02822A5E9B3800B5631A /* Frameworks */,
+				56FB02832A5E9B3800B5631A /* Resources */,
+				4DD79BCD48A525A8D34D2F96 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomAlertViewController;
+			productName = CustomAlertViewController;
+			productReference = 56FB02852A5E9B3800B5631A /* CustomAlertViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		56FB027D2A5E9B3800B5631A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					56FB02842A5E9B3800B5631A = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 56FB02802A5E9B3800B5631A /* Build configuration list for PBXProject "CustomAlertViewController" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 56FB027C2A5E9B3800B5631A;
+			productRefGroup = 56FB02862A5E9B3800B5631A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				56FB02842A5E9B3800B5631A /* CustomAlertViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		56FB02832A5E9B3800B5631A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FB02982A5E9B3900B5631A /* LaunchScreen.storyboard in Resources */,
+				56FB02952A5E9B3900B5631A /* Assets.xcassets in Resources */,
+				56FB02932A5E9B3800B5631A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40C9690779F8801CDC279555 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomAlertViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DD79BCD48A525A8D34D2F96 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomAlertViewController/Pods-CustomAlertViewController-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomAlertViewController/Pods-CustomAlertViewController-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomAlertViewController/Pods-CustomAlertViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		56FB02812A5E9B3800B5631A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56FB02B22A5EA29100B5631A /* LoginStyleModel.m in Sources */,
+				56FB02A42A5E9DFE00B5631A /* AlertView.m in Sources */,
+				56FB02902A5E9B3800B5631A /* ViewController.m in Sources */,
+				56FB02BB2A5EA46600B5631A /* UIButton+LMTimeButton.m in Sources */,
+				56FB028A2A5E9B3800B5631A /* AppDelegate.m in Sources */,
+				56FB02AE2A5E9E0200B5631A /* AlertImgTableCell.m in Sources */,
+				56FB02AC2A5E9E0200B5631A /* AlertTableCell.m in Sources */,
+				56FB029B2A5E9B3900B5631A /* main.m in Sources */,
+				56FB02B52A5EA2D700B5631A /* DeviceInfoTool.m in Sources */,
+				56FB02AD2A5E9E0200B5631A /* AlertActionView.m in Sources */,
+				56FB028D2A5E9B3800B5631A /* SceneDelegate.m in Sources */,
+				56FB02B82A5EA3A100B5631A /* UIView+Additions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		56FB02912A5E9B3800B5631A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FB02922A5E9B3800B5631A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		56FB02962A5E9B3900B5631A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				56FB02972A5E9B3900B5631A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		56FB029C2A5E9B3900B5631A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		56FB029D2A5E9B3900B5631A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		56FB029F2A5E9B3900B5631A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F68A84DA22203E744CFF03A7 /* Pods-CustomAlertViewController.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP95JA6S6A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomAlertViewController/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomAlertViewController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syt.CustomAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		56FB02A02A5E9B3900B5631A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBD548C2272127F5EC58D94B /* Pods-CustomAlertViewController.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QP95JA6S6A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CustomAlertViewController/PrefixHeader.pch";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomAlertViewController/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = syt.CustomAlertViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		56FB02802A5E9B3800B5631A /* Build configuration list for PBXProject "CustomAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FB029C2A5E9B3900B5631A /* Debug */,
+				56FB029D2A5E9B3900B5631A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		56FB029E2A5E9B3900B5631A /* Build configuration list for PBXNativeTarget "CustomAlertViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				56FB029F2A5E9B3900B5631A /* Debug */,
+				56FB02A02A5E9B3900B5631A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 56FB027D2A5E9B3800B5631A /* Project object */;
+}
